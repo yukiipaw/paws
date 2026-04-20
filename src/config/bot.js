@@ -165,7 +165,7 @@ export const botConfig = {
       // Plural display name.
       namePlural: "popsicles",
       // Currency symbol shown in balances.
-      symbol: "<a:y_popsicle_NF2U:1431769497613897888>",
+      symbol: "null",
     },
 
     // Starting balance for new users.
