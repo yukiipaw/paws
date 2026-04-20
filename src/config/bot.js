@@ -30,7 +30,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "eating snow..",
+        name: "eating snow.. (づ 𖥦◝ )",
         // Activity type number (0 = Playing).
         type: 4, 
       },
@@ -93,32 +93,32 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#c2e0ff", 
+      secondary: "#5787e6", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
-      info: "#3498DB", 
+      success: "#abffa8", 
+      error: "#ff7d7f", 
+      warning: "#fff094", 
+      info: "#ffb8d9", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      dark: "#18326b",
+      gray: "#abbad4",
 
       // Discord-style palette shortcuts.
-      blurple: "#5865F2",
-      green: "#57F287",
-      yellow: "#FEE75C",
-      fuchsia: "#EB459E",
-      red: "#ED4245",
+      blurple: "#a3abff",
+      green: "#b0ffc8",
+      yellow: "#fff3ab",
+      fuchsia: "#ffbfe1",
+      red: "#ffb5b6",
       black: "#000000",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#bcffab",
+        ended: "#ffa1a2",
       },
       ticket: {
         open: "#57F287",
@@ -126,9 +126,9 @@ export const botConfig = {
         closed: "#ED4245",
         pending: "#99AAB5",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#96b6ff",
+      birthday: "#ff96b2",
+      moderation: "#baefff",
 
       // Ticket priority color mapping.
       priority: {
@@ -141,7 +141,7 @@ export const botConfig = {
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "paws bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
@@ -161,11 +161,11 @@ export const botConfig = {
   economy: {
     currency: {
       // Currency display name.
-      name: "coins",
+      name: "popsicle",
       // Plural display name.
-      namePlural: "coins",
+      namePlural: "popsicles",
       // Currency symbol shown in balances.
-      symbol: "$",
+      symbol: "<a:y_popsicle_NF2U:1431769497613897888>",
     },
 
     // Starting balance for new users.
